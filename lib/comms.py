@@ -1,13 +1,9 @@
 # file mailgun.py
 # This file stores information regarding the mailgun emailing 
 # functions for MakersBnB
+from lib.key import MAILGUN_API_KEY
+from lib.key import MAILGUN_DOMAIN
 import requests
-
-
-# MakersBnB Mailgun API key and domain
-MAILGUN_API_KEY = 'ae881b8406e640763bfdde827edecbbf-2c441066-2698ec22'
-MAILGUN_DOMAIN = 'sandbox48b81c47f2e24b7591d704aedfb22efe.mailgun.org'
-
 
 class EmailManager():
 
